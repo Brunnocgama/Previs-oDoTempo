@@ -18,7 +18,7 @@ body {
     background: #000000;
     opacity: 0.8;
     border-radius: 25px;
-    padding: 20px;
+    padding: 50px;
     width: 95%;
     max-width: 450px;
 }
@@ -39,9 +39,10 @@ body {
     outline: none;
     padding: 10px;
     border-radius: 50px;
-    background-color: #7c7c7c2b;
+    background-color: #c4c0bb;
     cursor: pointer;
     float: right;/*botão para o lado*/
+  
 }
 
 .img-src{
@@ -62,9 +63,17 @@ body {
 }
 
 .temp{
-    font-size: 20px;
+    font-size: 15px;
     color: #ffffff;
     margin-top: 20px;
+    
+}
+
+.temp-min{
+    font-size: 15px;
+    color: #ffffff;
+    margin-top: 20px;
+    
 }
 
 .little-box{
