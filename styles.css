@@ -1,8 +1,8 @@
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-font-family: 'Open Sans', sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body {
@@ -11,21 +11,22 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("https://images.unsplash.com/photo-1523712999610-f77fbcfc3843?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlfHx8fHx8MTY4MDA1NzY2NQ&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600");
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
 }
 
 .big-box {
     background: #000000;
     opacity: 0.8;
     border-radius: 25px;
-    padding: 20px;
+    padding: 50px;
     width: 95%;
     max-width: 450px;
 }
 
 .input-city {
-    border: none; 
-    outline: none;/*linha azul do google*/
+    border: none;
+    outline: none;
+    /*linha azul do google*/
     padding: 10px;
     border-radius: 25px;
     font-size: 20px;
@@ -34,17 +35,19 @@ body {
     width: calc(100%- 100px);
 }
 
-.button-src{
+.button-src {
     border: none;
     outline: none;
     padding: 10px;
     border-radius: 50px;
-    background-color: #7c7c7c2b;
+    background-color: #c4c0bb;
     cursor: pointer;
-    float: right;/*botão para o lado*/
+    float: right;
+    /*botão para o lado*/
+
 }
 
-.img-src{
+.img-src {
 
     width: 20px;
 }
@@ -54,31 +57,41 @@ body {
 
 }
 
-.City{
+.City {
     color: #ffffff;
     font-size: 28px;
     font-weight: 300;
     text-transform: capitalize;
 }
 
-.temp{
-    font-size: 20px;
+.temp {
+    font-size: 15px;
     color: #ffffff;
     margin-top: 20px;
+
 }
 
-.little-box{
+.temp-min {
+    font-size: 15px;
+    color: #ffffff;
+    margin-top: 20px;
+
+}
+
+.little-box {
     display: flex;
     align-items: center;
     margin-top: 20px;
 }
-.text-forecast{
-    color: #ffffff;  
+
+.text-forecast {
+    color: #ffffff;
     margin-left: 20px;
-    text-transform: capitalize; /*primeira letra maiuscula*/
+    text-transform: capitalize;
+    /*primeira letra maiuscula*/
 }
 
-.humidity{
+.humidity {
     color: #ffffff;
     margin-top: 20px;
 }
