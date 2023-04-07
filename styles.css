@@ -1,8 +1,8 @@
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-font-family: 'Open Sans', sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body {
@@ -24,8 +24,9 @@ body {
 }
 
 .input-city {
-    border: none; 
-    outline: none;/*linha azul do google*/
+    border: none;
+    outline: none;
+    /*linha azul do google*/
     padding: 10px;
     border-radius: 25px;
     font-size: 20px;
@@ -34,18 +35,19 @@ body {
     width: calc(100%- 100px);
 }
 
-.button-src{
+.button-src {
     border: none;
     outline: none;
     padding: 10px;
     border-radius: 50px;
     background-color: #c4c0bb;
     cursor: pointer;
-    float: right;/*botão para o lado*/
-  
+    float: right;
+    /*botão para o lado*/
+
 }
 
-.img-src{
+.img-src {
 
     width: 20px;
 }
@@ -55,39 +57,41 @@ body {
 
 }
 
-.City{
+.City {
     color: #ffffff;
     font-size: 28px;
     font-weight: 300;
     text-transform: capitalize;
 }
 
-.temp{
+.temp {
     font-size: 15px;
     color: #ffffff;
     margin-top: 20px;
-    
+
 }
 
-.temp-min{
+.temp-min {
     font-size: 15px;
     color: #ffffff;
     margin-top: 20px;
-    
+
 }
 
-.little-box{
+.little-box {
     display: flex;
     align-items: center;
     margin-top: 20px;
 }
-.text-forecast{
-    color: #ffffff;  
+
+.text-forecast {
+    color: #ffffff;
     margin-left: 20px;
-    text-transform: capitalize; /*primeira letra maiuscula*/
+    text-transform: capitalize;
+    /*primeira letra maiuscula*/
 }
 
-.humidity{
+.humidity {
     color: #ffffff;
     margin-top: 20px;
 }

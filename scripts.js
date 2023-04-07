@@ -15,7 +15,7 @@ async function searchCity(city) {
     const dados = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${key}&lang=pt_br&units=metric`).then(response => response.json())
 
     /*console.log (dados)*/
-    
+
     dataOnScreen(dados)
 }
 
@@ -25,6 +25,16 @@ function iPressedTheButton() {
     searchCity(city)
 
 }
+
+document.addEventListener("keypress", function (e) {
+    if (e.key === 'Enter') {
+
+        const btn = document.querySelector("#submit");
+
+        btn.click();
+
+    }
+});
 
 
 
